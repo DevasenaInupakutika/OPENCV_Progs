@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/devasenap/OPCV_progs/gui_cv.cpp
+opencv2/imgproc/imgproc.hpp
+/home/devasenap/OPCV_progs/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+

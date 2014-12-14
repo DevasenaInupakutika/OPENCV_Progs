@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/devasenap/OPCV_progs/erode_dilate_imgproc.cpp
+opencv2/imgproc/imgproc.hpp
+/home/devasenap/OPCV_progs/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/devasenap/OPCV_progs/opencv2/highgui/highgui.hpp
+highgui.h
+/home/devasenap/OPCV_progs/highgui.h
+stdlib.h
+-
+stdio.h
+-
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/devasenap/OPCV_progs/flannimg.cpp
+stdio.h
+-
+iostream
+-
+opencv2/core/core.hpp
+/home/devasenap/OPCV_progs/opencv2/core/core.hpp
+opencv2/features2d/features2d.hpp
+/home/devasenap/OPCV_progs/opencv2/features2d/features2d.hpp
+opencv2/highgui/highgui.hpp
+/home/devasenap/OPCV_progs/opencv2/highgui/highgui.hpp
+
